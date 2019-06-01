@@ -1,5 +1,5 @@
 dfs:
-  url: 192.168.244.10:8181
+  url: 192.168.224.10:8181
 fdfs:
     connectTimeout: 600
     soTimeout: 1500
@@ -7,16 +7,16 @@ fdfs:
         height: 150
         width: 150
     trackerList:
-    - 192.168.244.10:12050
+    - 192.168.224.10:12050
 
 zookeeper:
-  url: zookeeper://192.168.244.10:2181
+  url: zookeeper://192.168.224.10:2181
 spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
   redis:
-    host: 192.168.244.10
+    host: 192.168.224.10
     port: 6379
     password: 123456
   jmx:
