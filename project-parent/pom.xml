@@ -684,7 +684,7 @@
                     <imageName>192.168.224.10:5000/${project.artifactId}</imageName>
                     <baseImage>openjdk:8</baseImage>
                     <entryPoint>["java", "-jar","-Duser.timezone=GMT+8", "/${project.build.finalName}.jar"]</entryPoint>
-                    <dockerDirectory>${project.basedir}</dockerDirectory>
+                    <!--<dockerDirectory>${project.basedir}</dockerDirectory>-->
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
