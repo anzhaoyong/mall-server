@@ -687,7 +687,7 @@
                     <!--<dockerDirectory>${project.basedir}</dockerDirectory>-->
                     <resources>
                         <resource>
-                            <targetPath>/opt/mall</targetPath>
+                            <targetPath>/</targetPath>
                             <directory>${project.build.directory}</directory>
                             <include>${project.build.finalName}.jar</include>
                         </resource>
