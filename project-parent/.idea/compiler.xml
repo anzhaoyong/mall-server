@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall-account" />
+        <module name="mall-api" />
+        <module name="mall-core" />
+        <module name="mall-model" />
+        <module name="mall-mongo" />
+        <module name="mall-order-service" />
+        <module name="mall-pay" />
+        <module name="mall-product-service" />
+        <module name="mall-user-service" />
+        <module name="mall-web" />
+        <module name="mall-web-mng" />
+        <module name="mall-web-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="project-parent (1)" target="1.8" />
+      <module name="project-parent (2)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
