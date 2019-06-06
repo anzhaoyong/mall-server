@@ -1,5 +1,5 @@
 dfs:
-  url: 192.168.224.10:8181
+  url: 192.168.244.10:8181
 fdfs:
     connectTimeout: 600
     soTimeout: 1500
@@ -7,9 +7,9 @@ fdfs:
         height: 150
         width: 150
     trackerList:
-    - 192.168.224.10:12050
+    - 192.168.244.10:12050
 c3p0:
-  jdbcUrl: jdbc:mysql://192.168.224.10:3307/mall?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+  jdbcUrl: jdbc:mysql://192.168.244.10:3307/mall?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false
   user: root
   password: root
   driverClass: com.mysql.jdbc.Driver
@@ -27,19 +27,19 @@ c3p0:
   testConnectionOnCheckin: true
 
 zookeeper:
-  url: zookeeper://192.168.224.10:2181 #114.115.171.119
+  url: zookeeper://192.168.244.10:2181 #114.115.171.119
 
 mybatis:
   mapper-locations: classpath*:mapping/**/*.xml
   config-location: classpath:SqlMapConfig.xml
 spring:
   redis:
-    host: 192.168.224.10
+    host: 192.168.244.10
     port: 6379
     password: 123456
   data:
     mongodb:
-      uri: mongodb://192.168.224.10:27017/mall   #114.115.171.119
+      uri: mongodb://192.168.244.10:27017/mall   #114.115.171.119
   jmx:
     enabled: false
 shiro:
